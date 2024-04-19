@@ -36,5 +36,24 @@ false ->0
 //to convert varible to string use String method
 
 let numToString=String(33)
-console.log(numToString);
-console.log( typeof numToString);
+// console.log(numToString);
+// console.log( typeof numToString);
+
+const str="vinsPawar"
+// console.log(str.length);
+// console.log(str.includes('ins'));
+// console.log(str.substring(1,5));
+// console.log(str.slice(-4,8));
+
+let vins;
+const name= vins || "";
+// console.log(name.length);
+
+let a=50;
+// console.log( typeof a.toString())
+
+const myIntro="hello my name is vinayak pawar im from warananager 200";
+// console.log(myIntro.split(" ").toString());
+
+const arr=["10","20","30"];
+console.log(typeof Number(arr[0]));
